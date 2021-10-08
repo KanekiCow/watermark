@@ -1,0 +1,10 @@
+wait (5)
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "Valiant";
+    Text = "Valiant Injeced";
+    Icon = "https://www.roblox.com/library/7677744286/EZLOL";
+    Duration = 10, 
+})
